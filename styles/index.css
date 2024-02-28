@@ -1,0 +1,70 @@
+/*CSS REFRESH*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+/*TEXT DECORATION RESET*/
+a{
+text-decoration: none;
+color: black;
+}
+
+/*header,navbar*/
+
+header{
+    padding: 10px;
+    box-shadow: 0 7px 2px -2px rgb(236, 236, 236);
+}
+
+nav{
+    width: 58%;
+}
+
+.header_logo{
+    width: 60px;
+}
+
+.nav_links{
+    font-size: 20px;
+    font-weight: bold;
+    gap: 25px;
+}
+
+nav a:hover{
+    opacity: 0.7;
+}
+
+.nav_profile{
+    width: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width:1024px){
+    
+    .nav_links{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px){
+    
+    .nav_links{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:516px){
+    nav{
+        width: 70%;
+    }
+    .logo_text{
+        display: none;
+    }
+    /*Since we can't use Javascript I did not include a mobile menu, so I left the profile logo instead because it's important*/
+    .nav_links{
+        font-size: 0px;
+    }
+}

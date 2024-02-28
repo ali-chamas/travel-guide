@@ -61,6 +61,8 @@ section h1{
 
 footer{
     background-color: rgb(236, 236, 236);
+    justify-content: center;
+    height: 25vh;
 }
 
 footer a:hover{
@@ -352,9 +354,7 @@ box-shadow: 1px 7px;
         width: 20px;
     }
 
-    footer a{
-        font-size: 10px;
-    }
+  
     
     
     .paris_section h1{
